@@ -1,9 +1,6 @@
     <div id="page-content-wrapper">
       <nav class="navbar navbar-expand-lg navbar- menu_color_1  border-bottom">
-        <button class="btn menu_color_button_1 " id="menu-toggle">
-          <i class="fas fa-align-justify fa-lg text-white"></i>
-        </button>
-
+      
         <button class="menu_color_button_1 navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fas fa-align-justify fa-lg text-white"></i>
         </button>

@@ -56,3 +56,8 @@ body {
  position: relative; 
  left: 10px;
 }
+.position_sidebar_icon_2{
+ position: relative; 
+ left: 10px !important;
+  
+}

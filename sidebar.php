@@ -1,8 +1,13 @@
     <!-- Sidebar -->
     <div class=" menu_color_1 " id="sidebar-wrapper">
       <div class="sidebar-heading">
-        <a class="text-white"  href="">VideoTube</a>
-         </div>
+        <a class="text-white"  href="">VideoTube
+        </a>
+        <a class="float-right  position_sidebar_icon_2" id="menu-toggle">
+          <i class=" fas fa-ellipsis-h  text-white mt-1"></i>
+        </a>
+
+      </div>
       <div class="list-group list-group-flush ">
 
        <a href="#" class="list-group-item list-group-item-action  menu_color_1 text-white">
