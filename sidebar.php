@@ -3,8 +3,8 @@
       <div class="sidebar-heading">
         <a class="text-white"  href="">VideoTube
         </a>
-        <a class="float-right  position_sidebar_icon_2" id="menu-toggle">
-          <i class=" fas fa-ellipsis-h  text-white mt-1"></i>
+        <a class="test float-right  " id="menu-toggle">
+          <i class=" position_sidebar_icon_2 fas fa-ellipsis-h  text-white mt-1 icon-to-change"></i>
         </a>
 
       </div>
