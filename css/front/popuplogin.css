@@ -1,0 +1,107 @@
+
+.arrow-up{
+  width:0;
+  border-top:12x solid transparent;
+  border-right:12px solid transparent;
+  border-bottom:12px solid #be3d4d;
+  border-left:12px solid transparent;
+  margin:0 auto;
+  top:-8px;
+  right:3px;
+
+  position:relative;
+}
+
+
+.login-form{
+  
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  width:250px;
+  
+  height:190px;
+  background:#373333;
+  top:45px;
+  border-radius:3px;
+  display: none;
+  z-index:999;
+  -webkit-box-shadow: 0px 10px 53px 0px rgba(0,0,0,0.56);
+  -moz-box-shadow: 0px 10px 53px 0px rgba(0,0,0,0.56);
+  box-shadow: 0px 10px 53px 0px rgba(0,0,0,0.56);
+
+}
+.login-form > form{
+	width:200px;
+	margin:0 auto;
+	font-size:15px;
+	color:gray;
+	letter-spacing: -0.05em;
+	top:25;
+}
+input[type="text"]  {
+
+	width:200px;
+	height:10px;
+  position: relative;
+  top: 15px;
+  right: 10px;
+  display: block;
+  padding: 10px;
+  font-size: 14px;
+  font-family: sans-serif;
+  color: white;
+  background: rgba(0,0,0,0.3);
+  outline: none;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 2px;
+  box-shadow: inset 0px -5px 45px rgba(100,100,100,0.2), 0px 1px 1px rgba(255,255,255,0.2);
+}
+
+input[type="password"]{
+	width:200px;
+	height:10px;
+  position: relative;
+  top: 25px;
+  right: 10px;
+  display: block;
+  padding: 10px;
+  font-size: 14px;
+  font-family: sans-serif;
+  color: white;
+  background: rgba(0,0,0,0.3);
+  outline: none;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 2px;
+  box-shadow: inset 0px -5px 45px rgba(100,100,100,0.2), 0px 1px 1px rgba(255,255,255,0.2);
+
+}
+input[type="submit"]  {
+  font-family: 'Open Sans', sans-serif;
+  width:165px;
+
+  height:30px;
+  background:#005C7E;
+  font-size:17px;
+  color:white;
+  top:40px;
+  left: 20px;
+  outline:none;
+  border:0px;
+  border-radius:3px;
+  position: relative;
+  letter-spacing:-0.05em;
+
+}
+
+
+input[type="submit"]:hover  {
+	background:#c1bfbf;
+  color:  #005C7E;
+}
+
+.login_parca{
+  text-decoration:none;position: relative;color:white; top:60px; font-size:15px;
+}
+.login_parca:hover{
+  color:#be3d4d;
+}
