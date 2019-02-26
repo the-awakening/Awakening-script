@@ -13,7 +13,7 @@ Quiry
 
 ____
 
-- Gün 1 -
+- Gün 1 
 -Menü ikonları renklendirildi.
 -Çözünürlük problemi çözüldü(%25).
 -Kodlar düzenlendi.
