@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/front/mainstyle.css">
+	<link rel="stylesheet" type="text/css" href="css/front/style.css">
 	<link rel="stylesheet" type="text/css" href="css/front/colors.css">
 	<link rel="stylesheet" type="text/css" href="css/front/resolution.css">
 	<link rel="stylesheet" type="text/css" href="css/front/sidebar.css">

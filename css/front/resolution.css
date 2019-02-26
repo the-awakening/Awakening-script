@@ -33,3 +33,16 @@
 		width: 30vh !important; 
 	}	
 }
+
+
+@media  screen and (max-width: 1600px) {
+	#sidebar-wrapper {
+		min-width: 35vh !important;
+		margin-left: 0;
+
+
+	}
+	.list-group{
+		width: 35vh !important; 
+	}	
+}
