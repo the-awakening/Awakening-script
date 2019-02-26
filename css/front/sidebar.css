@@ -34,11 +34,9 @@ body {
   #sidebar-wrapper {
     min-width: 35vh ;
     margin-left: 0;
-
-
   }
 .list-group{
-   width: 35vh !important; 
+   width: 35vh ; 
 }
   #page-content-wrapper {
     min-width: 0;
@@ -48,22 +46,16 @@ body {
   #wrapper.toggled #sidebar-wrapper {
     margin-left: -15rem;
   }
-
-
-}
-
-.position_sidebar_icon{
- position: relative; 
- left: 10px;
+.sidebar-menu-item{
+    position: relative;
+    display: block;
+    padding: 15px 10px 10px 10px;
+    margin-bottom: -1px;
+    border: 1px solid rgba(0,0,0,.125);
 }
 .position_sidebar_icon_2{
- position: relative; 
- left: 10px !important;
-  
+  margin-left: 10px !important;
 }
 .position_sidebar_icon_3{
- position: relative; 
- left: 5px !important;
-
-  
+ margin-left: 5px !important;
 }

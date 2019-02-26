@@ -1,0 +1,35 @@
+@media  screen and (max-width: 1920px) {
+	#sidebar-wrapper {
+		min-width: 29vh !important;
+		margin-left: 0;
+
+
+	}
+	.list-group{
+		width: 29vh !important; 
+	}
+}
+@media  screen and (max-width: 1440px) {
+	#sidebar-wrapper {
+		min-width: 35vh !important;
+		margin-left: 0;
+
+
+	}
+	.list-group{
+		width: 35vh !important; 
+	}
+	
+}
+
+@media  screen and (max-width: 1280px) {
+	#sidebar-wrapper {
+		min-width: 30vh !important;
+		margin-left: 0;
+
+
+	}
+	.list-group{
+		width: 30vh !important; 
+	}	
+}

@@ -1,6 +1,6 @@
 <?php require_once 'head.php'; ?>
 
-<?php require_once 'login.php'; ?>
+
 <body>
 	<div class="d-flex toggled" id="wrapper">
 		<?php 
