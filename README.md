@@ -7,6 +7,10 @@ Reinells
 ____
 
 1-)Bootstrap eklendi
+2-)Footer Eklendi 
+3-)popup sistemi eklendi
+4-)sidebar menüsündeki ikonlara hover effecti verildi
+5-)site artık daha responsive
 
 
 Quiry 
