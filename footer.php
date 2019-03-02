@@ -44,7 +44,7 @@
 	});
 
 </script>
- 
+ <!--
   <script type='text/javascript'>
     $(function(){
       // When the window is resized, check the size to determine your classes
@@ -60,19 +60,51 @@
          }
       });
     });
-</script>
+</script>-->
 
-<section    id="footer" class="py-2 footer_color_1 footer_settings">
+<script type="text/javascript">
+        function searchToggle(obj, evt){
+            var container = $(obj).closest('.search-wrapper');
+
+            if(!container.hasClass('active')){
+                  container.addClass('active');
+                  evt.preventDefault();
+            }
+            else if(container.hasClass('active') && $(obj).closest('.input-holder').length == 0){
+                  container.removeClass('active');
+                  // clear input
+                  container.find('.search-input').val('');
+                  // clear and hide result container when we press close
+                  container.find('.result-container').fadeOut(100, function(){$(this).empty();});
+            }
+        }
+
+       
+    </script>
+
+
+<section  id="footer" class="  footer_color_1 footer_settings">
 	<div class="container">
 		<div class="row">
 
 			<div class="col">
-
+				<ul class="list-inline mt-3">
+					<li class="list-inline-item ">
+						<a class="text-white" href="">Hakkımızda</a>
+					</li>
+					<li class="list-inline-item"> 
+						<a class="text-white" href="">Gizlilik</a>
+					</li>
+					<li class="list-inline-item">
+						<a class="text-white" href="">Politikamız</a>
+					</li>
+				 
+				</ul>
 
 			</div>
 
 			<div class="col">
-				<a class="ml-5 text-white"  href="">© 2019 Tüm Telif Hakkı Saklıdır.  </a>
+				<p class="ml-5 text-white mt-3">© 2019 Tüm Telif Hakkı Saklıdır.  </p>
 			</div>
 
 			<div class="col">

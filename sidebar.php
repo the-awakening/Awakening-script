@@ -1,5 +1,5 @@
     <!-- Sidebar -->
-    <div class=" sidebar_color_1" id="sidebar-wrapper">
+    <div class=" sidebar_color_1 " id="sidebar-wrapper">
       <div class="sidebar-heading">
         <a class="text-white"  href="">VideoTube
         </a>
@@ -42,7 +42,7 @@
     </div>
 
  
-     <a id="footer_info" class="position_sidebar_icon_4 md-tooltip md-tooltip--right float-right" href="#" data-md-tooltip="Footer">
+     <a id="footer_info" class="position_sidebar_icon_4 md-tooltip md-tooltip--right float-right" href="#" data-md-tooltip="Telif Hakkı">
     
          <i  class="footer_info fas fa-info-circle fa-lg text-white"></i> 
       </a>
