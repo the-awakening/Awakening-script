@@ -1,28 +1,68 @@
 .dot_color{
 	/*color:#e8ab4e !important;*/
 }
+/*sidebar renkleri*/
 .home_color{
-	color:#e8ab4e !important;
+	transition: 0.3s;
+	color: white !important;
 }
 .social_color{
-	color: #4286f4 !important;
+	transition: 0.3s;
+	color: white !important;
 }
 .stream_color{
-	color: #a304e5 !important;
+	transition: 0.3s;
+	color: white !important;
 }
 .trend_color{
-	color: orange !important;
+	transition: 0.3s;
+	color: white !important;
 }
 .events_color{
-	color: #f42e2e !important;
+	transition: 0.3s;
+	color: white !important;
 
 }
 .ranking_color{
+	transition: 0.3s;
+	color: white !important;
+}
+/*hover renkleri*/
+.home_color:hover{
+	color:#e8ab4e !important;
+}
+.social_color:hover{
+	color: #4286f4 !important;
+}
+.stream_color:hover{
+	color: #a304e5 !important;
+}
+.trend_color:hover{
+	color: orange !important;
+}
+.events_color:hover{
+	color: #f42e2e !important;
+
+}
+.ranking_color:hover{
 	color: #18a510 !important;
 }
+
+/*diğer renkler*/
 .menu_color_1{
+	background-color: #481b72 !important;
+}
+.sidebar_color_1{
+	background-color: #1d2127 !important;
+}
+.footer_color_1{
 	background-color: #1d2127 !important;
 }
 .menu_color_button_1{
 	background-color: #9f39db !important;
 }
+.menu_border_bottom_color{
+	border-color: #1d2127 !important;
+	border-bottom: 2px solid !important;
+}
+ 

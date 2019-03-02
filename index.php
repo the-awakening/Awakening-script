@@ -9,8 +9,9 @@
 		require_once 'menu.php';
 
 		?>
+		
 	</div>
-</body>
+
 
 
 <?php require_once 'footer.php'; ?>

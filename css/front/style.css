@@ -32,19 +32,79 @@ html,body{
 	color: #270004 !important;
 }
 .search_box{
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: white;
-    background-image: url(../../image/icon/searchicon.png);
-    background-position: 10px 2px;
-    background-repeat: no-repeat;
-    padding-left: 42px;
-    height: 20px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	background-color: white;
+	background-image: url(../../image/icon/searchicon.png);
+	background-position: 10px 2px;
+	background-repeat: no-repeat;
+	padding-left: 42px;
+	height: 20px;
 
 }
 
 
+.footer_settings{
+	display: none;
+}
+
+
+
+/*tooltip kodları*/
+
+
+
+[data-md-tooltip] {
+	position: relative;
+}
+[data-md-tooltip]:before {
+	content: attr(data-md-tooltip);
+	position: absolute;
+	bottom: -35px;
+	left: 50%;
+	padding: 8px;
+	transform: translateX(-50%) scale(0);
+	transition: transform 0.3s ease-in-out;
+	transform-origin: top;
+	background: #616161e6;
+	color: white;
+	border-radius: 2px;
+	font-size: 12px;
+	font-family: Roboto,sans-serif;
+	font-weight: 400;
+}
+[data-md-tooltip]:hover:before {
+	transform: translateX(-50%) scale(1);
+}
+[data-md-tooltip].md-tooltip--right:before {
+	left: auto;
+	right: -10px;
+	bottom: auto;
+	top: 50%;
+	transform: translate(100%, -50%) scale(0);
+	transform-origin: left center;
+}
+[data-md-tooltip].md-tooltip--right:hover:before {
+	transform: translate(100%, -50%) scale(1);
+}
+[data-md-tooltip].md-tooltip--left:before {
+	left: -15px;
+	right: auto;
+	bottom: auto;
+	top: 50%;
+	transform: translate(-100%, -50%) scale(0);
+	transform-origin: right center;
+}
+[data-md-tooltip].md-tooltip--left:hover:before {
+	transform: translate(-100%, -50%) scale(1);
+}
+.md-tooltip--top:before {
+	top: -35px;
+	bottom: auto;
+	transform: translateX(-50%) scale(0);
+	transform-origin: bottom center;
+}
  

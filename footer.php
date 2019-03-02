@@ -4,6 +4,7 @@
 <script src="./js/bootstrap/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
+
 <!-- Menu Toggle Script -->
 <script>
 	$("#menu-toggle").click(function(e) {
@@ -30,4 +31,59 @@
 		}
 	})
 </script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+
+		$("#footer_info").click(function(){
+			/*container class'lı div tıklandığında açıksa kapanacak kapalıysa açılacak.*/
+			$("#footer").slideToggle();
+
+
+		});
+	});
+
+</script>
+ 
+  <script type='text/javascript'>
+    $(function(){
+      // When the window is resized, check the size to determine your classes
+      $(window).resize(function(){
+         // When the width and height meet your specific requirements or lower
+         if (($(window).width() <= 800) && ($(window).height() <= 600)){
+               // If it is smaller or equal to 1024x768, apply your class
+              $(".normal").removeClass('normal').addClass('smaller');
+         }
+         else{
+              // Otherwise, reverse the classes
+              $(".smaller").removeClass('smaller').addClass('normal');
+         }
+      });
+    });
+</script>
+
+<section    id="footer" class="py-2 footer_color_1 footer_settings">
+	<div class="container">
+		<div class="row">
+
+			<div class="col">
+
+
+			</div>
+
+			<div class="col">
+				<a class="ml-5 text-white"  href="">© 2019 Tüm Telif Hakkı Saklıdır.  </a>
+			</div>
+
+			<div class="col">
+
+			</div>
+
+		</div>
+		
+	</div>
+
+</section>
+
+
 </html>

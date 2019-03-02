@@ -8,6 +8,11 @@
 	.list-group{
 		width: 29vh !important; 
 	}
+	#wrapper.toggled #sidebar-wrapper {
+		margin-left: -15rem;
+	}
+	
+
 }
 @media  screen and (max-width: 1440px) {
 	#sidebar-wrapper {
@@ -19,6 +24,10 @@
 	.list-group{
 		width: 35vh !important; 
 	}
+	#wrapper.toggled #sidebar-wrapper {
+		margin-left: -15rem;
+	}
+	
 	
 }
 
@@ -32,6 +41,10 @@
 	.list-group{
 		width: 30vh !important; 
 	}	
+	#wrapper.toggled #sidebar-wrapper {
+		margin-left: -15rem;
+	}
+
 }
 
 
@@ -44,5 +57,25 @@
 	}
 	.list-group{
 		width: 35vh !important; 
-	}	
+	}
+	#wrapper.toggled #sidebar-wrapper {
+		margin-left: -15rem;
+	}
+
 }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	#sidebar-wrapper {
+		min-width: 41vh !important;
+		margin-left: 0;
+
+
+	}
+	.list-group{
+		width: 41vh !important; 
+	}
+	#wrapper.toggled #sidebar-wrapper {
+		margin-left: -14rem !important;
+	}
+}
+
+ 
