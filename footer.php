@@ -62,34 +62,30 @@
     });
 </script>-->
 
-<script type="text/javascript">
-        function searchToggle(obj, evt){
-            var container = $(obj).closest('.search-wrapper');
-
-            if(!container.hasClass('active')){
-                  container.addClass('active');
-                  evt.preventDefault();
-            }
-            else if(container.hasClass('active') && $(obj).closest('.input-holder').length == 0){
-                  container.removeClass('active');
-                  // clear input
-                  container.find('.search-input').val('');
-                  // clear and hide result container when we press close
-                  container.find('.result-container').fadeOut(100, function(){$(this).empty();});
-            }
-        }
-
-       
-    </script>
+<script type="text/javascript">//tab sistemi oyuncular ,klanlar,gemi
+$(function(){
+	$("ul#tab li:first").addClass("aktif");
+	$("div.tab_content").hide();
+	$("div.tab_content:first").show();
+	$("ul#tab li").click(function(e){
+		var index = $(this).index();
+		$("ul#tab li").removeClass("aktif");
+		$(this).addClass("aktif");
+		$("div.tab_content").hide();
+		$("div.tab_content:eq(" + index + ")").show();
+		return false
+	});
+});
+</script>
 
 
-<section  id="footer" class="  footer_color_1 footer_settings">
+<section  id="footer" class="footer_color_1 footer_settings">
 	<div class="container">
 		<div class="row">
 
-			<div class="col">
+			<div class="col-md-6">
 				<ul class="list-inline mt-3">
-					<li class="list-inline-item ">
+					<li class="list-inline-item  ">
 						<a class="text-white" href="">Hakkımızda</a>
 					</li>
 					<li class="list-inline-item"> 
@@ -98,17 +94,23 @@
 					<li class="list-inline-item">
 						<a class="text-white" href="">Politikamız</a>
 					</li>
-				 
+					<li class="list-inline-item">
+						<a class="text-white" href="">Destek</a>
+					</li>
+					<li class="list-inline-item">
+						<a class="text-white" href="">iletişim</a>
+					</li>
+
 				</ul>
 
 			</div>
 
-			<div class="col">
-				<p class="ml-5 text-white mt-3">© 2019 Tüm Telif Hakkı Saklıdır.  </p>
+			<div class="col-md-2">
+				
 			</div>
 
-			<div class="col">
-
+			<div class="col-md-4">
+				<p class="ml-5 text-white mt-3">© 2019 Tüm Telif Hakkı Saklıdır.  </p>
 			</div>
 
 		</div>

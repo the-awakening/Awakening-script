@@ -1,4 +1,4 @@
-    <div id="page-content-wrapper">
+
       <nav class="navbar navbar-expand-lg navbar- menu_color_1 menu_border_bottom_color  border-bottom">
        <a class="text-white" href="#" >
         logo
@@ -16,12 +16,11 @@
              <form onsubmit="submitFn(this, event);">
               <div class="search-wrapper">
                 <div class="input-holder">
-                  <input type="text" class="search-input" placeholder="Type to search" />
+                  <input type="text" class="search-input" placeholder="Video Veya Arkadaş Ara" />
                   <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
-                </div>
-                <span class="close" onclick="searchToggle(this, event);"></span>
+                </div>       
                 <div class="result-container">
-
+                  <!--ne oldugu pek belli degil-->
                 </div>
               </div>
             </form>
@@ -45,20 +44,37 @@
 
           </a>
           <div  style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 330px !important;" class="dropdown-menu-right dropdown-menu bildirim">
-            <!-- /.dropdown-messages -->
+            <div class="modal-header">
+             <ul class="list-inline ml-2 ">
+              <li class="list-inline-item  ">
+                <a href="" class="text-dark" >Arkadaşlar</a>
+              </li>
+              <li class="list-inline-item px-3 ">
+                <a href="" class="text-dark">Videolar</a>
+              </li>
+              <li class="list-inline-item  ">
+                <a href="" class="text-dark">Canlı Yayın</a>
+              </li>
+            </ul>
           </div>
-        </li>
-        <!--Profil Kısmı-->
-        <li class="dropdown order-1">
-          <a href="#"  data-toggle="modal" data-target="#modalLRForm"  class=" nav-link tab2 ml-auto text-white">
-            <i class="far fa-user-circle fa-lg text-white"></i>
+          <div class="modal-body">
+           <!-- /.dropdown-messages -->
+         </div>
 
-          </a>
-        </li>
+       </div>
+     </li>
+     <!--Profil Kısmı-->
+     <li class="dropdown order-1">
+      <a href="#"  data-toggle="modal" data-target="#basicExampleModal"  class=" nav-link tab2 ml-auto text-white">
+        <i class="far fa-user-circle fa-lg text-white"></i>
+
+      </a>
+    </li>
 
 
-      </ul>
+  </ul>
 
-    </div>
-  </nav>
 </div>
+</nav>
+
+ 

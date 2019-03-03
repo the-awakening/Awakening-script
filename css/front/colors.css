@@ -65,4 +65,12 @@
 	border-color: #1d2127 !important;
 	border-bottom: 2px solid !important;
 }
- 
+ .bg_modal_head{
+ 	background-color: #481b72 !important;
+ }
+ .bg_modal_button{
+ 	background-color: rgba(0,0,0,.2) !important; /*transparan yapıyo rengi */
+ }
+  .bg_modal_button:hover{
+ 	background-color: #6828a3 !important;
+ }

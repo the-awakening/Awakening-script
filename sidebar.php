@@ -47,8 +47,5 @@
          <i  class="footer_info fas fa-info-circle fa-lg text-white"></i> 
       </a>
  
- 
- 
-
   </div>
     <!-- /#sidebar-wrapper -->
